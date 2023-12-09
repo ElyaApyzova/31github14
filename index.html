@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Zilla+Slab:ital,wght@1,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">Write your birth of year</h1>
+        <div class="box">
+          <input
+            class="year"
+            id="year"
+            type="text"
+            placeholder="Write number..."
+          />
+          <button onclick="ResolveAge()">Click to know your age!</button>
+        </div>
+        <div class="results">
+          <h1 id="result">Your age:</h1>
+          <h1 id="incorrect">It's wrong, write number!</h1>
+        </div>
+      </div>
+    </section>
+    <script src="apps.js"></script>
+  </body>
+</html>
